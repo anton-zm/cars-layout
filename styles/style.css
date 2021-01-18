@@ -1,0 +1,76 @@
+@import url('../blocks/header/header.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/content-columns/content-columns.css');
+@import url('../blocks/pagination/pagination.css');
+@import url('../blocks/most-popular/most-popular.css');
+@import url('../blocks/footer/footer.css');
+
+body {
+    font-family: PT Sans;
+}
+
+.page {
+ background-color: #F2F2F2;
+ 
+}
+
+
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.marker {
+    background-color: #4A90E2;
+    border-radius: 3px;
+    width: 62px;
+    height: 22px;
+    padding-top: 4px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.logo__second {
+    background-color: #4A90E2;
+    border-radius: 3px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.mask:hover {
+    opacity: 0.5;
+}
+
+.button-link {
+    text-decoration: none;
+}

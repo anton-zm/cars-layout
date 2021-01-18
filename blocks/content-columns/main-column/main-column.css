@@ -1,0 +1,89 @@
+.main-column {
+    width: 65%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0 0;
+}
+
+.main-column__item {
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 180px auto 0 0;
+    position: relative;
+    
+}
+
+.main-column__item:nth-of-type(1) {
+    background-image: url(../../../img/ms-benz.jpg);
+    margin: 0 auto;
+}
+
+.main-column__item:nth-of-type(2) {
+    background-image: url(../../../img/bmw.jpg);
+}
+
+.main-column__item:nth-of-type(3) {
+    background-image: url(../../../img/sportcar.jpg);
+}
+
+.main-column__item:nth-of-type(4) {
+    background-image: url(../../../img/chevrolet.jpg);
+}
+
+.main-column__item:nth-of-type(5) {
+    background-image: url(../../../img/jeep.jpg);
+}
+
+.main-column__textbox {
+    width: 90%;
+    min-height:250px ;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #FFFFFF;
+    transform: translateY(50%);
+    position: relative;
+    z-index: 2;
+}
+
+.textbox-marker {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.textbox__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #171717;
+    width: 80%;
+    margin:72px auto 0 30px ;
+}
+
+.textbox__meta {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    font-style: italic;
+    margin:15px auto 0 30px ;
+}
+
+.textbox__paragraph {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #666666;
+    font-style: normal;
+    margin:14px auto 30px 30px ;
+    width: 80%;
+}

@@ -1,0 +1,54 @@
+.sidebar__social-post {
+    width: 100%;
+    margin: 60px 0 0;
+}
+
+.social__title {
+    margin: 60px 0 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    color: #171717;
+}
+
+.social__grid {
+    margin: 25px 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+
+}
+
+
+
+.social_img-link {
+    
+}
+
+.social_img {
+    width: 130px;
+    height: 130px;
+    transition: 0.4s;
+}
+
+.social_img:hover {
+    opacity: 0.5;
+}
+
+.social__button {
+    margin: 10px 0 0;
+    transition: 0.4s;
+}
+
+.button-link:hover .social__button {
+    background-color: gray;
+}
+
+.social__inst-icon {
+    margin-right: 14px;
+}
+
+

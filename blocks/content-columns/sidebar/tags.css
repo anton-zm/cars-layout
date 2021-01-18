@@ -1,0 +1,43 @@
+.sidebar__tags {
+    margin: 60px 0 0;
+}
+
+.tags__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    color: #171717;
+    font-style: normal;
+    margin: 0;
+}
+
+.tags__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 0;
+    width: 100%;
+
+}
+
+.tag__link {
+
+}
+
+.tag {
+    background: #EBEBEB;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #171717;
+    font-style: normal;
+    padding: 7px 15px 5px;
+    margin: 8px 8px 0 0;
+    transition: 0.4s;
+}
+
+.tag:hover {
+    background-color: #c4c1c1;
+}
